@@ -1678,4 +1678,90 @@ footer .container{
     footer{
         padding: 30px 0px;
     }
+    .heroBgTheme {
+        background-position: right;
+            height: 100vh;
+    }
+    .secOne .headingOne{
+            padding-bottom: 0rem;
+    padding-left: 0rem;
+    }
+    .secOne .container-fluid{
+        margin-top: 0;
+    }
+    .overlayContent h1{
+        padding-top: 25rem;
+    }
+    .overlayContent p{
+        font-size: 1.6rem;
+        width: 80%;
+    }
+    .cardOne, .cardTwo, .cardThree {
+            margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2rem;
+    height: auto;
+    margin-top: 5%;
+    }
+    .cardOne p, .cardTwo p, .cardThree p{
+        width: 100%;
+    }
+    .secOne{
+        height: auto;
+        padding-bottom: 5rem;
+    }
+   .cardTheme{
+        height: auto !important;
+    }
+    .cardTwo .cardTheme{
+        padding-left: 7%;
+    padding-right: 7%;
+    }
+    .secTwo .headingOne{
+        position: static;
+        text-align: left;
+    }
+    #trainerCarousel .carousel-indicators{
+        top: -20px;
+    }
+    .trName, .trDetails{
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    .trImg{
+        height: 350px;
+    }
+    .trDetails p{
+        width: 95%;
+    }
+    #trainerCarousel .carousel-caption{
+        padding-top: 30px;
+    }
+    .navbar-collapse{
+          background: #262626;
+          padding-bottom: 25px;
+          padding-top: 20px;
+          border-top: 0.5px solid #666;
+          margin-top: 16px;
+  }
+  .btnPrimary{
+      margin-left: 20px;
+  }
+  .navbar .container{
+      padding-top: 10px;
+  }
+  .navbar{
+      display: block;
+  }
+  .navbar-nav{
+      align-items: flex-start;
+  }
+  .navbar .container{
+      width: 100%;
+      margin: 0;
+      max-width: 100%;
+  }
+  .location, .workingHrs{
+      width: 40%;
+  }
 }
